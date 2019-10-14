@@ -51,5 +51,10 @@ body {
 }
 
 .nav .current {
-  background-color: red;
+  background-color: #b20953;
+}
+
+footer {
+    background-color: #ffe500;
+    text-align: center;
 }
