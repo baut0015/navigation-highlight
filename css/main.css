@@ -32,12 +32,11 @@ h2 {
 
 body {
   margin: 0;
-  background-color: #fff;
 }
 
 main {
   padding: 0;
-  margin: .6em;
+  margin: .7em;
   margin-bottom: .3em;
 }
 
@@ -47,9 +46,10 @@ img {
   margin-top: .4em;
 }
 
-p {
+.text {
   display: block;
-  padding: 0;
+  padding: 0 .1em;
+  margin-bottom: 1.1em;
 }
 
 .nav {
@@ -65,7 +65,7 @@ p {
 
 .nav a {
   display: inline-block;
-  padding: .4em .75em;
+  padding: .4em .79em;
   background-color: #b2a212;
   border-radius: 4px;
   text-decoration: none;
@@ -81,10 +81,15 @@ p {
   background-color: #b20953;
 }
 
-footer {
+.footer {
   background-color: #ffe500;
   text-align: center;
-  padding: .3em 0 0;
-  margin: 0;
   color: #2f2d13;
+  margin: 0;
+  padding: 0;
+}
+
+small {
+  display: block;
+  padding: 1em;
 }
