@@ -10,7 +10,7 @@ html {
 
 header {
   background-color: #ffe500;
-  padding: .2em 0;
+  padding: .1em 0;
 }
 
 h1, h2 {
@@ -26,12 +26,13 @@ h1 {
 
 h2 {
   text-align: left;
-  font-size: 1.8em;
+  font-size: 1.87em;
   margin-bottom: .9em;
 }
 
 body {
   margin: 0;
+  background-color: #fff;
 }
 
 main {
@@ -49,7 +50,7 @@ img {
 .text {
   display: block;
   padding: 0 .1em;
-  margin-bottom: 1.1em;
+  margin-bottom: 1em;
 }
 
 .nav {
@@ -91,5 +92,6 @@ img {
 
 small {
   display: block;
-  padding: 1em;
+  padding: 1.2em;
+  font-size: .75em;
 }
